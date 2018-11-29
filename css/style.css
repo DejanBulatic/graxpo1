@@ -7,6 +7,7 @@ html {
 
 img {
     max-width: 100%;
+    min-width: 100%;
     display: block;
 }
 
@@ -24,7 +25,7 @@ p {
 }
 
 .text-light {
-    color: #81868E;
+    color: #81868E !important;
 }
 
 .text-dark {
@@ -32,7 +33,14 @@ p {
 }
 
 .text-hot {
-    color: #E84C3D;
+    color: #E84C3D !important;
+}
+
+.section-header {
+    font-size: 20px;
+    color: #333B46 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
@@ -84,3 +92,25 @@ header .navbar-nav .nav-item:hover a{
     font-size: 1.25rem;
 }
 /**hello section end**/
+/**about section start**/
+.about {
+    padding: 110px 0 130px;
+}
+
+.about .about-content p {
+    line-height: 1.78rem;
+}
+
+.about .btn {
+    letter-spacing: 2px;
+}
+/**about section end**/
+
+
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Leckerli One', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
