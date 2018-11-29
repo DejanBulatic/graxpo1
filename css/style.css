@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:300,400|Roboto:300,400,500,700');
+
+/**general**/
+html {
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+    display: block:
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-light {
+    color: #81868E;
+}
+
+.text-dark {
+    color: #333B46 !important;
+}
+
+.text-hot {
+    color: #E84C3D;
+}
 
 
+/**general end**/
 
+/**header**/
+header .navbar-brand {
+    font-family: 'Leckerli One', cursive;
+    color: #E84C3D !important;
+    font-size: 20px;
+}
+
+header .navbar-nav .nav-item {
+    background: #fff;
+    border-bottom: 1px solid #81868E;
+    transition: 0.3s linear;
+}
+
+header .navbar-nav .nav-item:last-of-type {
+    border-bottom: none;
+}
+
+header .navbar-nav .nav-item:hover,
+header .navbar-nav .nav-item.active {
+    background: #E84C3D;
+}
+
+header .navbar-nav .nav-item:hover a{
+    color: #fff !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(232, 76, 61);
+    border-color: rgb(232, 76, 61);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 67, 61, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/**header end**/
