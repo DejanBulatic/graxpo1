@@ -7,7 +7,7 @@ html {
 
 img {
     max-width: 100%;
-    display: block:
+    display: block;
 }
 
 h1,
@@ -73,3 +73,14 @@ header .navbar-nav .nav-item:hover a{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 67, 61, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 /**header end**/
+/**hello section**/
+.hello-section {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hello-section .hello-content p {
+    font-size: 1.25rem;
+}
+/**hello section end**/

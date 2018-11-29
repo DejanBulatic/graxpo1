@@ -34,13 +34,23 @@
         color: #333B46 !important;
     }
 
+    .hello-section .hello-content h2 {
+        font-size: 35px !important;
+    }
+
+    .hello-section {
+        padding: 250px 0;
+    }
+
 
 }
 
 
 @media(min-width:992px){
 
-
+    .hello-section {
+        padding: 300px 0;
+    }
 
 
 }
