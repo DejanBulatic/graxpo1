@@ -43,7 +43,33 @@ p {
     letter-spacing: 2px;
 }
 
+.after-header {
+    position: relative;
+}
 
+.after-header:after {
+    content: '';
+    width: 46px;
+    height: 3px;
+    background: #898989;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+}
+.after-header-center {
+    position: relative;
+}
+
+.after-header-center:after {
+    content: '';
+    width: 46px;
+    height: 3px;
+    background: #898989;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
 /**general end**/
 
 /**header**/
@@ -94,7 +120,7 @@ header .navbar-nav .nav-item:hover a{
 /**hello section end**/
 /**about section start**/
 .about {
-    padding: 110px 0 130px;
+    padding: 70px 0 70px;
 }
 
 .about .about-content p {
@@ -105,12 +131,97 @@ header .navbar-nav .nav-item:hover a{
     letter-spacing: 2px;
 }
 /**about section end**/
+/**what we do section start**/
+.what-header {
+    font-size: 1.14rem;
+    color: #696d72 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.what-header:after {
+    content: '';
+    width: 31px;
+    height: 2px;
+    background: #EBEBEB;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.what-we-do .what-wraper {
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    
+    transition: 0.3s linear;
+}
+
+.what-we-do .what-wraper .fa {
+    height: 108px;
+    width: 108px;
+    line-height: 108px;
+    font-size: 50px;
+    color: #fff;
+    background: #E84C3D;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.what-we-do .what-wraper:hover {
+    background: #E84C3D;
+}
+
+.what-we-do .what-wraper:hover .fa {
+    color: #E84C3D;
+    background: #fff;
+}
+
+.what-we-do .what-wraper:hover h4,
+.what-we-do .what-wraper:hover p {
+    color: #fff !important;
+}
+/**what we do section end**/
+/**numbers start**/
+.numbers {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.numbers p {
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.numbers .number {
+    font-size: 30px;
+
+}
+.numbers .numbers-article .number-text {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.numbers .numbers-article .number-text:after {
+    content: '';
+    width: 31px;
+    height: 2px;
+    background: #EBEBEB;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.numbers .numbers-article .fa {
+    font-size: 30px;
+}
+/**numbers end**/
 
 
 
-    font-family: 'Roboto', sans-serif;
-
-    font-family: 'Leckerli One', cursive;
-
-    font-family: 'Open Sans', sans-serif;
 

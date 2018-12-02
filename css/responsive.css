@@ -3,9 +3,14 @@
 
 @media(min-width:576px){
 
+    
 
+    .what-header:after {
+        left: 0 !important;
+        transform: translate(0, 0) !important;
+    }
 
-
+   
 
 
 }
@@ -42,6 +47,14 @@
         padding: 250px 0;
     }
 
+    .about {
+        padding: 110px 0 130px;
+    }
+
+    .what-we-do-lead {
+        max-width: 70% !important;
+    }
+
 
 }
 
@@ -52,6 +65,37 @@
         padding: 300px 0;
     }
 
+    .after-header {
+        margin-bottom: 60px !important;
+    }
+
+    .after-header:after {
+        bottom: -24px;
+    }
+
+    .after-header-center {
+        margin-bottom: 60px !important;
+    }
+
+    .after-header-center:after {
+        bottom: -24px;
+    }
+
+    .what-we-do-lead {
+        max-width: 50% !important;
+    }
+
+    .numbers {
+        padding: 100px 0 !important;
+    }
+    
+    .numbers .numbers-article .number-text:after {
+        content: '';
+        width: 31px !important;
+        height: 2px !important;
+        left: 0px !important;
+        transform: translate(0, 0);
+    }
 
 }
 
