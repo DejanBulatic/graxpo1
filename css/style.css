@@ -157,7 +157,7 @@ header .navbar-nav .nav-item:hover a{
     -webkit-border-radius: 10px;
     -ms-border-radius: 10px;
     -moz-border-radius: 10px;
-    
+
     transition: 0.3s linear;
 }
 
@@ -221,6 +221,72 @@ header .navbar-nav .nav-item:hover a{
     font-size: 30px;
 }
 /**numbers end**/
+/**crew start**/
+.crew {
+    font-family: 'Roboto', sans-serif;
+}
+.crew-section .crew-item .crew-hover {
+    background: #E84C3D;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    bottom: 10px;
+    padding: 35px 20px 20px;
+    display: none;
+    transition: 0.3s linear;
+}
+
+.crew-item .crew-content {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.crew-item nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.crew-item nav .fa {
+    height: 29px;
+    width: 29px;
+    line-height: 29px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: 0 2px;
+}
+
+.crew-item figure:hover .crew-hover {
+    display: block;
+}
+
+.crew-item nav .fa:hover {
+    text-shadow:
+        0 0 5px #Fff,
+        0 0 10px #Fff,
+        0 0 20px #Fff,
+        0 0 40px #Fff;
+    box-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 5px #Fff inset;
+}
+
+.crew-item .crew-name {
+    color: #333B46;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.crew-item img {
+    
+}
+/**crew end**/
 
 
 
