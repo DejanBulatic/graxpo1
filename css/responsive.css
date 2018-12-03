@@ -26,7 +26,7 @@
     header .navbar-nav .nav-item {
         background: transparent;
         border-bottom: 2px solid transparent;
-        transition: 0.3s linear;
+        transition: 0.3s ease;
     }
 
     header .navbar-nav .nav-item:last-of-type {

@@ -70,6 +70,16 @@ p {
     left: 50%;
     transform: translate(-50%, 0)
 }
+
+.btn-danger {
+    background-color: #E84C3D !important;
+    border-color: #E84C3D !important;
+}
+
+.btn-danger:hover {
+    background-color: #ce3b2d !important;
+    border-color: #ce3b2d !important;
+}
 /**general end**/
 
 /**header**/
