@@ -65,7 +65,7 @@
         </header><!--header end-->
         <main>
             <!--hello section start-->
-            <section class="hello-section" style="background-image: url('img/lead.jpg')">
+            <section class="hello-section" id="home" style="background-image: url('img/lead.jpg')">
                 <div class="container">
                     <div class="hello-content mx-auto text-center">
                         <h2 class="text-dark text-uppercase">hello, we're prothemers</h2>
@@ -74,7 +74,7 @@
                 </div>
             </section><!--hello section end-->
             <!--about section start-->
-            <section class="about bg-white">
+            <section class="about bg-white" id="about">
                 <div class="container">
                     <div class="row justify-content-between align-items-start">
                         <div class="col-12 col-md-6 mb-5 mb-md-0 pr-lg-5">
@@ -103,9 +103,9 @@
                 </div>
             </section><!--about section end-->
             <!--what we do section start-->
-            <section class="what-we-do bg-white">
+            <section class="what-we-do bg-white" id="service">
                 <div class="container">
-                    <div class="what-we-do-lead mx-auto text-center">
+                    <div class="section-lead mx-auto text-center">
                         <h3 class="section-header after-header-center mb-5">what we do</h3>
                         <p class="text-light mb-5">
                             Lorem Ipsum is simply dummy text of the printing and 
@@ -187,7 +187,7 @@
             </section>
             <!--what we do section end-->
             <!--numbers area start-->
-            <section class="numbers" style="background: linear-gradient(to right, rgba(323,76,61,0.9), rgba(323,76,61,0.9)), url('img/statistics.jpg')">
+            <section class="numbers" id="portfolio" style="background: linear-gradient(to right, rgba(323,76,61,0.9), rgba(323,76,61,0.9)), url('img/statistics.jpg')">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0 text-center">
@@ -223,9 +223,9 @@
             </section>
             <!--numbers area end-->
             <!--our crew start-->
-            <section class="crew-section py-5">
+            <section class="crew-section py-5 bg-white" id="team">
                 <div class="container">
-                    <div class="crew-lead mx-auto text-center">
+                    <div class="section-lead mx-auto text-center">
                         <h3 class="section-header after-header-center mb-5">meet our crew</h3>
                         <p class="text-light mb-5">
                             Lorem Ipsum is simply dummy text of the printing and 
@@ -233,8 +233,8 @@
                             text 
                         </p>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="row justify-content-center">
+                        <div class="crew-wrap col-12 col-sm-6 col-md-3 mb-4">
                             <article class="crew-item">
                                 <figure class="position-relative">
                                     <img src="img/team-01.jpg" alt=""/>
@@ -254,7 +254,7 @@
                                 <p class="small text-center">ceo</p>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="crew-wrap col-12 col-sm-6 col-md-3 mb-4">
                             <article class="crew-item">
                                 <figure class="position-relative">
                                     <img src="img/team-03.jpg" alt=""/>
@@ -274,7 +274,7 @@
                                 <p class="small text-center">ceo</p>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="crew-wrap col-12 col-sm-6 col-md-3 mb-4">
                             <article class="crew-item">
                                 <figure class="position-relative">
                                     <img src="img/team-04.jpg" alt=""/>
@@ -294,7 +294,7 @@
                                 <p class="small text-center">ceo</p>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3">
+                        <div class="crew-wrap col-12 col-sm-6 col-md-3">
                             <article class="crew-item">
                                 <figure class="position-relative">
                                     <img src="img/team-03.jpg" alt=""/>
@@ -318,7 +318,7 @@
                 </div>
             </section><!--our crew end-->
             <!--subscribe section start-->
-            <section class="subscribe" style="background: linear-gradient(to right, rgba(323,76,61,0.9), rgba(323,76,61,0.9)), url('img/subscribe.jpg')">
+            <section class="subscribe" id="blog" style="background: linear-gradient(to right, rgba(323,76,61,0.9), rgba(323,76,61,0.9)), url('img/subscribe.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6 mb-4 mb-md-0">
@@ -342,6 +342,66 @@
                     </div>
                 </div>
             </section><!--subscribe section end-->
+            <!--get in touch section start-->
+            <section class="get-in-touch" id="contact">
+                <div class="container">
+                    <div class="section-lead mx-auto text-center mb-5">
+                        <h3 class="section-header after-header-center mb-5">get in touch with us</h3>
+                        <p class="text-light mb-5">
+                            Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry been the industry's standard dummy 
+                            text 
+                        </p>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8 col-lg-8 mb-5 mb-md-0">
+                            <form method="post" action="">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" value="" placeholder="Your Name" class="form-control form-control-lg rounded-0">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" name="email" value="" placeholder="Email Adress" class="form-control form-control-lg rounded-0">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" placeholder="Message" class="form-control rounded-0"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" name="submit-now" class="btn btn-lg btn-danger text-uppercase rounded-0 d-block mx-auto mx-sm-0">submit now</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <aside>
+                                <div class="d-flex contact-content mb-4">
+                                    <span class="fa fa-map-marker"></span>
+                                    <p>
+                                        65,Prothemers Tower-1200 D 
+                                        Block Comilla, Bangladesh
+                                    </p>
+                                </div>
+                                <div class="d-flex contact-content mb-4">
+                                    <span class="fa fa-envelope-o"></span>
+                                    <p>
+                                        Info@Addaxx.com
+                                    </p>
+                                </div>
+                                <div class="d-flex contact-content mb-4">
+                                    <span class="fa fa-phone"></span>
+                                    <p>
+                                        +8805-5823-582
+                                    </p>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </section><!--get in touch section end-->
         </main>
 
 

@@ -3,7 +3,7 @@
 
 @media(min-width:576px){
 
-    
+
 
     .what-header:after {
         left: 0 !important;
@@ -14,7 +14,9 @@
         padding: 100px 0 !important;
     }
 
-
+    .get-in-touch {
+        padding: 100px 0;
+    }
 }
 
 
@@ -53,12 +55,14 @@
         padding: 110px 0 130px;
     }
 
-    .what-we-do-lead {
-        max-width: 70% !important;
+    .section-lead {
+        max-width: 50% !important;
     }
 
-    .crew-lead {
-        max-width: 70% !important;
+    .crew-section .crew-item .crew-hover {
+        width: 90%;
+        bottom: 10px;
+        padding: 5px 5px 5px;
     }
 }
 
@@ -85,20 +89,22 @@
         bottom: -24px;
     }
 
-    .what-we-do-lead {
-        max-width: 50% !important;
-    }
-
     .numbers {
         padding: 100px 0 !important;
     }
-    
+
     .numbers .numbers-article .number-text:after {
         content: '';
         width: 31px !important;
         height: 2px !important;
         left: 0px !important;
         transform: translate(0, 0);
+    }
+
+    .crew-section .crew-item .crew-hover {
+        width: 90%;
+        bottom: 10px;
+        padding: 35px 20px 20px;
     }
 
 }

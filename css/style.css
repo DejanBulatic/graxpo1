@@ -157,8 +157,7 @@ header .navbar-nav .nav-item:hover a{
     -webkit-border-radius: 10px;
     -ms-border-radius: 10px;
     -moz-border-radius: 10px;
-
-    transition: 0.3s linear;
+    transition: 0.3s ease-in-out;
 }
 
 .what-we-do .what-wraper .fa {
@@ -169,7 +168,7 @@ header .navbar-nav .nav-item:hover a{
     color: #fff;
     background: #E84C3D;
     border-radius: 50%;
-    transition: 0.3s linear;
+    transition: 0.3s ease-in-out;
 }
 
 .what-we-do .what-wraper:hover {
@@ -233,7 +232,7 @@ header .navbar-nav .nav-item:hover a{
     bottom: 10px;
     padding: 35px 20px 20px;
     display: none;
-    transition: 0.3s linear;
+    max-height: 100%;
 }
 
 .crew-item .crew-content {
@@ -259,6 +258,17 @@ header .navbar-nav .nav-item:hover a{
     -ms-border-radius: 50%;
     -moz-border-radius: 50%;
     margin: 0 2px;
+    transition: 0.3s ease;
+}
+
+.crew-item figure {
+    transition: 0.3s ease;
+}
+
+.crew-section figure:hover img {
+    filter: blur(2px) grayscale(100%);
+    -webkit-filter: blur(2.5px) grayscale(100%);
+    
 }
 
 .crew-item figure:hover .crew-hover {
@@ -283,8 +293,8 @@ header .navbar-nav .nav-item:hover a{
     font-weight: 500;
 }
 
-.crew-item img {
-    
+.crew-wrap {
+    max-width: 300px;
 }
 /**crew end**/
 /**subscribe start**/
@@ -332,9 +342,14 @@ header .navbar-nav .nav-item:hover a{
     letter-spacing: 1px;
     line-height: 1.5;
     color: #fff;
+    transition: 0.3s ease;
 }
 
-.form-control:focus {
+.subscribe .form-control {
+    transition: 0.3s ease;
+}
+
+.subscribe .form-control:focus {
     color: #495057;
     background-color: rgba(255,255,255,0.2) !important;
     border-color: #80bdff;
@@ -347,6 +362,56 @@ header .navbar-nav .nav-item:hover a{
     background-color: rgba(255,255,255,0.2) !important;
 }
 /**subscribe end**/
+/**get in touch start**/
+.get-in-touch {
+    padding: 50px 0;
+}
 
+.get-in-touch form textarea {
+    max-height: 100px;
+    min-height: 200px;
+}
+
+.get-in-touch .btn {
+    letter-spacing: 2px;
+    padding: 0.5rem 50px;
+    font-size: 14px;
+}
+
+.get-in-touch .form-control {
+    border: 3px solid #EBEBEB;
+}
+
+.get-in-touch form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #bdc3cc;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.get-in-touch form textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #bdc3cc;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.get-in-touch .form-control:focus {
+    box-shadow: 0 0 10px #EBEBEB;
+    font-family: 'Roboto', sans-serif;
+    color: #81868E;
+    
+}
+
+.contact-content p {
+    color: #81868E;
+}
+
+.contact-content .fa {
+    color: #E84C3D;
+    font-size: 30px;
+    margin-right: 15px;
+}
+/**get in touch**/
 
 
