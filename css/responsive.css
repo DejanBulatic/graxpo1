@@ -10,7 +10,9 @@
         transform: translate(0, 0) !important;
     }
 
-   
+    .subscribe {
+        padding: 100px 0 !important;
+    }
 
 
 }
@@ -55,7 +57,9 @@
         max-width: 70% !important;
     }
 
-
+    .crew-lead {
+        max-width: 70% !important;
+    }
 }
 
 

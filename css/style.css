@@ -287,7 +287,66 @@ header .navbar-nav .nav-item:hover a{
     
 }
 /**crew end**/
+/**subscribe start**/
+.subscribe {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+}
 
+.subscribe .subscribe-item h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.subscribe .subscribe-item h4:after {
+    content: '';
+    width: 31px;
+    height: 2px;
+    background: #EBEBEB;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+}
+
+.subscribe .input-group .form-control {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.subscribe .input-group input {
+    color: #fff;
+}
+
+.subscribe .input-group input::placeholder {
+    color: #fff;
+    font-style: italic;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.subscribe .btn {
+    border: 1px solid #fff;
+    padding: 0.375rem 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgba(255,255,255,0.2) !important;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 3px #fff;
+}
+
+.subscribe .btn:hover {
+    box-shadow: 0 0 3px #fff;
+    background-color: rgba(255,255,255,0.2) !important;
+}
+/**subscribe end**/
 
 
 
