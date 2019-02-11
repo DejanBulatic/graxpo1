@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    
-  //Header animation
+$(document).ready(function () {
+
+    //Header animation
 
     function animateHeader() {
         var scrollTop = $(window).scrollTop();
@@ -10,9 +10,9 @@ $(document).ready(function(){
             $('header').removeClass('header-active  py-lg-2').addClass(' py-lg-4');
         }
     }
-  
-  
-  //animation 
+
+
+    //animation 
     function animation() {
 
         var windowHeight = $(window).height();
@@ -26,7 +26,7 @@ $(document).ready(function(){
                 var delay = $(this).attr('data-delay');
                 $(this).css('animation-delay', delay);
                 $(this).addClass(animacija);
-                
+
             }
         });
     }
@@ -38,10 +38,10 @@ $(document).ready(function(){
         animateHeader();
         animation();
     });
-    
-    
-    
-    
+
+
+
+
     // EASE SCROLL
 
     $(document).on('click', 'a[href^="#"]', function (event) {
@@ -51,26 +51,26 @@ $(document).ready(function(){
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 800);
     });
-    
-    
+
+
     //animate toogler
-    
-    $('.navbar-toggler').click(function(){
+
+    $('.navbar-toggler').click(function () {
         $(this).toggleClass('active');
     });
-    
-    
-    if($('.counter').length > 0){
-         $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
+
+
+    if ($('.counter').length > 0) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
     }
-    
-    
+
+
     //form validation
-    
-    
+
+
     $(function () {
         $(".subscribe-form").validate({
             highlight: function (element) {
@@ -82,19 +82,19 @@ $(document).ready(function(){
                 $(element).removeClass('form-control-danger').addClass('form-control-success');
             },
             rules: {
-                
-                email:{
-                    required:true,
-                    email:true
+
+                email: {
+                    required: true,
+                    email: true
                 }
 
 
             },
             messages: {
-                
-                email:{
+
+                email: {
                     required: 'The *Email field is required',
-                    email:'Please enter a valid Email address!'
+                    email: 'Please enter a valid Email address!'
                 }
 
             },
@@ -105,9 +105,9 @@ $(document).ready(function(){
 
         });
     });
-            
-  
-  $(function () {
+
+
+    $(function () {
         $(".contact-form").validate({
             highlight: function (element) {
                 $(element).closest('.form-group').addClass("has-danger");
@@ -118,32 +118,32 @@ $(document).ready(function(){
                 $(element).removeClass('form-control-danger').addClass('form-control-success');
             },
             rules: {
-                
-                name:{
-                    required:true
+
+                name: {
+                    required: true
                 },
-                
-                email:{
-                    required:true,
-                    email:true
-                }, 
-                message:{
-                    required:true
+
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true
                 }
 
 
             },
             messages: {
-                name:{
-                    required:'The *Name field is required'
+                name: {
+                    required: 'The *Name field is required'
                 },
-                
-                email:{
+
+                email: {
                     required: 'The *Email field is required',
-                    email:'Please enter a valid Email address!'
+                    email: 'Please enter a valid Email address!'
                 },
-                message:{
-                    required:'The *Message field is required'
+                message: {
+                    required: 'The *Message field is required'
                 }
 
             },
@@ -154,6 +154,32 @@ $(document).ready(function(){
 
         });
     });
+
+    //OWL CAROUSEL TEAM SLIDER
     
-    
+    $('.team-slider').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 2,
+                margin: 30,
+                slideBy: 2
+            },
+            992: {
+                items: 4,
+                margin: 30,
+                slideBy: 4
+            }
+        }
+
+
+
+    });
+
+
 });
