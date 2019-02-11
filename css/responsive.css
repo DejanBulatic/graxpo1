@@ -1,124 +1,66 @@
 
-
-
 @media(min-width:576px){
-
-
-
-    .what-header:after {
-        left: 0 !important;
-        transform: translate(0, 0) !important;
-    }
-
-    .subscribe {
-        padding: 100px 0 !important;
-    }
-
-    .get-in-touch {
-        padding: 100px 0;
-    }
+    
+    
 }
 
 
 @media(min-width:768px){
-
-
-    header .navbar-nav .nav-item {
-        background: transparent;
-        border-bottom: 2px solid transparent;
-        transition: 0.3s ease;
-    }
-
-    header .navbar-nav .nav-item:last-of-type {
-        border-bottom: 2px solid transparent;
-    }
-
-    header .navbar-nav .nav-item:hover,
-    header .navbar-nav .nav-item.active {
-        border-bottom: 2px solid #E84C3D;
-        background: transparent;
-    }
-
-    header .navbar-nav .nav-item:hover a{
-        color: #333B46 !important;
-    }
-
-    .hello-section .hello-content h2 {
-        font-size: 35px !important;
-    }
-
-    .hello-section {
-        padding: 250px 0;
-    }
-
-    .about {
-        padding: 110px 0 130px;
-    }
-
-    .section-lead {
-        max-width: 50% !important;
-    }
-
-    .crew-section .crew-item .crew-hover {
-        width: 90%;
-        bottom: 10px;
-        padding: 5px 5px 5px;
-    }
+    
+    /*HEADER*/
+    
+    .navbar-light .navbar-nav .nav-link{
+    color:#333b46;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
 }
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link.active
+{
+    background: transparent;
+    color: #E84C3D;
+    border-bottom: 2px solid #E84C3D;
+}
+
+.navbar-nav{
+    background: transparent;
+}
+    
+.section-paddtop-desk {
+    padding: 110px 0px 0px !important;
+}
+.section-paddbott-desk {
+    padding-bottom: 100px !important;
+}
+.info-padding-desk {
+    padding: 110px 0px !important;
+}
+
+    
+}
+
 
 
 @media(min-width:992px){
 
-    .hello-section {
-        padding: 300px 0;
-    }
+/*HEADER*/
 
-    .after-header {
-        margin-bottom: 60px !important;
-    }
 
-    .after-header:after {
-        bottom: -24px;
-    }
-
-    .after-header-center {
-        margin-bottom: 60px !important;
-    }
-
-    .after-header-center:after {
-        bottom: -24px;
-    }
-
-    .numbers {
-        padding: 100px 0 !important;
-    }
-
-    .numbers .numbers-article .number-text:after {
-        content: '';
-        width: 31px !important;
-        height: 2px !important;
-        left: 0px !important;
-        transform: translate(0, 0);
-    }
-
-    .crew-section .crew-item .crew-hover {
-        width: 90%;
-        bottom: 10px;
-        padding: 35px 20px 20px;
-    }
-
+    
 }
-
-
-
 
 
 @media(min-width:1200px){
+    
+    /*header*/
+       .navbar-light .navbar-nav .nav-link{
 
-    .container{
-        max-width: 1120px;
-    }
-
-
+    padding: 5px 20px;
 
 }
+}
+
+
+
+
